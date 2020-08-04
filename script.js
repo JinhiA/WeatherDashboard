@@ -124,7 +124,7 @@ $(document).ready(function () {
         else if (data.value >= 8 && data.value <= 10) {
           btn.css("background", "red");
         }
-        else if (data.value >= 11) {
+        else if (data.value > 10) {
           btn.css("background", "purple");
         }
 
